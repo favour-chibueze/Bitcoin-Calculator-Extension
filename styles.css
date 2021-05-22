@@ -1,0 +1,69 @@
+html {
+  box-sizing: border-box;
+  background: #ffc600;
+  font-family: "helvetica neue";
+  font-size: 20px;
+  font-weight: 200;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+    width: 450px;
+    height: 404px;
+}
+
+.container {
+  background: white;
+  width: 83%;
+  margin: 5em auto 0.2em auto;
+  padding: 1em;
+}
+
+header {
+  text-align: center;
+}
+
+.form-select {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+  font-size: 1rem;
+  color: #212529;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  margin-top: 1.24rem;
+}
+
+input {
+  border-width: 2px;
+  border-style: inset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+}
+
+label {
+  color: #212529;
+  font-size: 23px;
+  margin-left: 6px;
+}
+
+.form-control {
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  display: block;
+  width: 100%;
+  margin-top: 0.865rem;
+}
+
+.form-control[readonly]:focus {
+  outline: none;
+}
